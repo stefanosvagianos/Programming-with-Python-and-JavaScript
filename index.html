@@ -2,10 +2,22 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            h1 {
+                padding: 100px;
+                text-align: center;
+            }
+            #main {
+                padding: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
     </head>
     <body>
-        <h1>Welcome to my search page</h1>
-        <form action="https://www.google.com/search">
+        <h1>Google</h1>
+        <form id="main" action="https://www.google.com/search">
             <input type="text" name="q">
             <input type="submit" value="Google Search">
         </form>
